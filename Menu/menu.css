@@ -1,0 +1,160 @@
+body{
+	background-color: black;
+	font-family: Verdana, Arial Black; /* first display using verdana, if its not there display arial black */
+	margin-top: 10px;
+}
+/*======================================HEADER=============================================*/
+.w3-bar a{
+	margin-bottom: 25px;
+	text-decoration: none;
+	color: red;
+}
+div a:hover{
+	text-decoration: none; /*dont underline the  links in the buttons */
+	color: white; /* font color white when hovering */
+}
+/*=======================================CONTENT============================================*/
+#image-tile, #video-tile, #education-tile, #games-tile, #about-tile{
+	height: 450px; /* height of the gw2 tile */
+	width: 100%; /* cover the entire tile */
+	margin-bottom: 15px; /* separate this tile from other tiles at the bottom */
+	position: relative; /* used for the span */
+	border: 3px solid #3F0C1F; /* border around the tile */
+	overflow: hidden; /* dont show the rest of the image */
+}
+#image-tile:hover, #video-tile:hover, #education-tile:hover, #games-tile:hover, #about-tile:hover {
+    box-shadow: 0 1px 10px 5px #cccccc; /* different border when hovering over the tile */
+}
+/* background image and size for the gw2 tile */
+#image-tile{
+    background: url('alice-cleavage.jpeg') no-repeat 0% 55%;
+    background-size: cover;
+}
+/*background image and size for the vindictus tile*/
+#video-tile{
+	background: url("fingerbite.gif") no-repeat;
+	background-size: cover;
+}
+#education-tile{
+	background: url("educational.gif") no-repeat 50%;
+	background-size: cover;
+}
+#games-tile{
+	background: url("games.gif") no-repeat;
+	background-size: cover;
+}
+#about-tile{
+	background: url("aboutimg.jpg") no-repeat;
+	background-size: cover;
+}
+#image-tile span, #video-tile span, #education-tile span, #games-tile span, #about-tile span {
+	position: absolute; /* always at the bottom */
+	/* position of the text box */
+	top: 0;
+	right: 0;
+	width: 100%; /* cover the entire width of the tile */
+	text-align: center; /* center align the text */
+	font-size: 1.6em; /* make the text a bit bigger than default */
+	text-transform: uppercase; /* upper case letters */
+	background-color: black; /* black backgroundcolor */
+ 	color: red; /* whitefont */
+ 	opacity: .8; /* make it see through */
+}
+/*=========================================MEDIAQUERIES==============================================*/
+/*=====================================EXTRA LARGE DEVICES===========================*/
+@media(min-width: 1200px) {
+}
+/*=====================================LARGE DEVICES==================================*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+/*=====================================MEDIUM DEVICES===============================*/
+@media (min-width: 768px) and (max-width: 991px){
+	#image-tile{
+	    background: url('alice-cleavage.jpeg') no-repeat 15% 55%;
+	    background-size: cover;
+	}
+
+	#video-tile{
+		background: url("fingerbite.gif") no-repeat 50%;
+		background-size: cover;
+	}
+
+	#games-tile{
+		background: url("games.gif") no-repeat 60%;
+		background-size: cover;
+	}
+
+	#about-tile{
+		background: url("aboutimg.jpg") no-repeat 20%;
+		background-size: cover;
+	}
+}
+/*======================================SMALL DEVICES================================*/
+@media (min-width: 480px) and (max-width: 767px){
+	#image-tile{
+	    background: url('alice-cleavage.jpeg') no-repeat 0% 10%;
+	    background-size: cover;
+	}
+
+	#video-tile{
+		background: url("fingerbite.gif") no-repeat 50% 10%;
+		background-size: cover;
+	}
+
+	#games-tile{
+		background: url("games.gif") no-repeat 60% 25%;
+		background-size: cover;
+	}
+
+	#about-tile{
+		background: url("aboutimg.jpg") no-repeat 20%;
+		background-size: cover;
+	}
+
+}
+/*============================= Super extra small devices============================*/
+@media (max-width: 479px){
+	#image-tile{
+	    background: url('alice-cleavage.jpeg') no-repeat 15% 55%;
+	    background-size: cover;
+	}
+
+	#video-tile{
+		background: url("fingerbite.gif") no-repeat 50%;
+		background-size: cover;
+	}
+
+	#games-tile{
+		background: url("games.gif") no-repeat 60%;
+		background-size: cover;
+	}
+
+	#about-tile{
+		background: url("aboutimg.jpg") no-repeat 20%;
+		background-size: cover;
+	}
+
+}
+/*============================= Super extra small devices============================*/
+@media (max-width: 320px){
+	#image-tile{
+	    background: url('alice-cleavage.jpeg') no-repeat 25% 55%;
+	    background-size: cover;
+	}
+
+	#video-tile{
+		background: url("fingerbite.gif") no-repeat 50%;
+		background-size: cover;
+	}
+
+	#games-tile{
+		background: url("games.gif") no-repeat 60%;
+		background-size: cover;
+	}
+
+	#about-tile{
+		background: url("aboutimg.jpg") no-repeat 30%;
+		background-size: cover;
+	}
+}

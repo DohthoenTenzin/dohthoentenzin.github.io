@@ -1,0 +1,69 @@
+/* change bg dark to black rather than a grey color */
+.bg-dark, .text-dark{
+	background-color: #000000 !important;
+}
+
+/* change the color of danger text to a more brighter red */
+.text-danger, .bg-danger{
+	color: red !important;
+}
+
+/* change the telephone number styling */
+a[href^="tel:"] {
+	text-decoration: none;
+	color: red;
+}
+
+/* tiles and their span text */
+.tile{
+	height: 500px; /* height of the gw2 tile */
+	width: 100%; /* cover the entire tile */
+	margin-bottom: 15px; /* separate this tile from other tiles at the bottom */
+	position: relative; /* used for the span */
+	border: 2px solid red; /* border around the tile */
+	overflow: hidden; /* dont show the rest of the image */
+}
+.tile:hover {
+    box-shadow: 0 1px 10px 5px #cccccc; /* different border when hovering over the tile */
+}
+.tile span {
+	position: absolute; /* always at the bottom */
+	/* position of the text box */
+	top: 0;
+	right: 0;
+	width: 100%; /* cover the entire width of the tile */
+	text-align: center; /* center align the text */
+	font-size: 1.6em; /* make the text a bit bigger than default */
+	text-transform: uppercase; /* upper case letters */
+	background-color: black; /* black backgroundcolor */
+ 	color: red; /* whitefont */
+ 	opacity: .8; /* make it see through */
+}
+
+/* homepage tiles */
+#camshow-tile{
+	background: url("../images/camshows.webp") no-repeat top center;
+	background-size: cover;
+}
+#porn-tile{
+	background: url("../images/porn.webp") no-repeat center;
+	background-size: cover;
+}
+#about-tile{
+	background:	url("../images/tenzin.jpg") no-repeat;
+	background-size: cover;
+}
+#about-tile:hover{
+	background: url("../images/tenzinflash.png") no-repeat center;
+	background-size: cover;
+}
+
+/* camshow tiles */
+#kellymun{
+	background: url("../images/kellymun.jpg") no-repeat center;
+	background-size: cover;
+}
+#missluscious{
+	background: url("../images/missluscious.jpg") no-repeat center;
+	background-size: cover;
+}
