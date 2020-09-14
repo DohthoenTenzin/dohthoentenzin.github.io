@@ -46,7 +46,8 @@ a[href^="tel:"] {
 	background-size: cover;
 }
 #porn-tile{
-	background: url("../images/porn.webp") no-repeat center;
+	background-position: top;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 #about-tile{
