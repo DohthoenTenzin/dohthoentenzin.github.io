@@ -42,7 +42,8 @@ a[href^="tel:"] {
 
 /* homepage tiles */
 #camshow-tile{
-	background: url("../images/camshows.webp") no-repeat top center;
+	background-position: top center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 #porn-tile{
@@ -51,12 +52,9 @@ a[href^="tel:"] {
 	background-size: cover;
 }
 #about-tile{
-	background:	url("../images/tenzin.jpg") no-repeat;
 	background-size: cover;
-}
-#about-tile:hover{
-	background: url("../images/tenzinflash.png") no-repeat center;
-	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* camshow tiles */
